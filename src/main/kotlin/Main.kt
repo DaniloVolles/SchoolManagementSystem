@@ -19,21 +19,11 @@ fun main() {
             1 -> academic()
             2 -> finances()
             3 -> administrative()
-        //  0 -> funcaoDeRetorno()
+            //  0 -> funcaoDeRetorno()
         }
 
         println(menu)
         menuSelect = readln().toInt()
 
     }
-}
-
-fun administrative() {
-
-}
-
-fun finances() {
-}
-
-fun academic() {
 }
